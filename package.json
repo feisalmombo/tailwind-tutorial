@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0"
   }
 }
