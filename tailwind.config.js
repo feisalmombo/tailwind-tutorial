@@ -390,6 +390,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      jungle: ['8rem', { lineHeight: '2.5rem' }],
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
