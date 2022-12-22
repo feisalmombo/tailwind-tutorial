@@ -539,6 +539,10 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .h-4{
   height: 1rem;
 }
@@ -563,12 +567,20 @@ video {
   width: 100%;
 }
 
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .items-center{
   align-items: center;
 }
 
 .justify-center{
   justify-content: center;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .border-b{
