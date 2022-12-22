@@ -567,10 +567,6 @@ video {
   width: 100%;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .items-center{
   align-items: center;
 }
@@ -738,5 +734,11 @@ video {
 @media (min-width: 768px){
   .md\:justify-end{
     justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
